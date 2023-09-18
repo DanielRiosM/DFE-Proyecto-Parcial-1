@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./style/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link src="Script/script.js" defer>
+    <script src="/Script/script.js" defef></script>
     <title>Document</title>
 </head>
 <body>
@@ -26,7 +26,7 @@
         </section>
     
 
-        <section>
+        <section id="sobremi">
             <div class="sobremi-container">
                 
                 <div class="sobremi">
@@ -37,8 +37,8 @@
                 </div>
             </div>
         </section>
-     
-        <section>
+
+        <section id="habilidad">
             
             <div class="habilidades-container">
                 <h1 class="">HABILIDADES</h1>
@@ -82,36 +82,132 @@
             </div> 
         </section>
 
-        <section>
-            <div class="educacion-container">
-                <div class="reglon">
-                    <div class="estudios">
-                        <img src="/img/Logo_de_la_Universidad_de_Sonora.svg.png" alt="Imagen 1">
-                        
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et lectus sed justo scelerisque aliquet.</p>
-                        <a href="https://maps.app.goo.gl/5xx8kFyzZ4z1Y957A" class="button">Ubicacion</a>
+        <section id="estudios">
+            <h1>Estudios</h1>
+            <div class="estudios-container">
+                <div class="estudios">
+                    <img src="./img/Logo_de_la_Universidad_de_Sonora.svg.png" alt="Unison">
+                    <h3>Universidad de Sonora</h3>
+                    <p>Carrera Ing. Sistemas de la informacion</p>
+                    <p>9vo Semestre.</p>
+                    
+                </div>
+                <div class="descripcion-container">
+                    <div class="descripcion">
+                        <div class="mensaje">
+                            <p>Durante mi estadia en la universidad estudie varias cosas como:</p>
+                            <p class="aprendizaje">- Analisis de datos, varios lenguajes de codigo, API, etc.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="reglon">
-                    <div class="estudios">
-                        <img src="/img/cecyte.png" alt="Imagen 1">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et lectus sed justo scelerisque aliquet.</p>
-                        <a href="https://maps.app.goo.gl/bMqaDt9q6mELJiEK8" class="button">Ubicacion</a>
-                    </div> 
+        </div>
+        <div class="estudios-container2">
+            <div class="descripcion-container">
+                <div class="descripcion">
+                    <div class="mensaje">
+                        <p>Durante mi estadia en la preparatoria estudie varias cosas como:</p>
+                        <p class="aprendizaje">- Mantenimiento a computadoras y introducion al codigo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="estudios">
+                <img src="./img/cecyte.png" alt="Unison">
+                <h3>Cecytes Justo Cierra</h3>
+                <p>Tecnico en Sistemas</p>
+                <p>Completado</p>
+                
+            </div>
+        </div>
+        
+        </section>
+
+        <section id="experiencia-laboral">
+            <h1 class="titulo">Experiencia Laboral</h1>
+            <div class="experiencia-container">
+                <div class="apartado">
+                    <h1>EDALMARC - Desarrollador Backend</h1>
+                    <h2>Septiembre 2022 - Enero 2023</h2>
+                    <p>Durante este periodo hice varias actividades relacionadas al backend como: API REST, creaciones de modulos. Donde las herramientas utilizadas 
+                        fueron: JavaScript, NodeJS, librerias Express.</p>
+                </div>
+                <div class="apartado">
+                    <h1>Desarrollador de aplicaciones de escrotorio</h1>
+                    <h2>Febrero 2023 - Septiembre 2023</h2>
+                    <p>En este periodo me toco realizar un desarrollo y un diseño de una aplicacion de escritorio. 
+                        Que permita la vizualizacion de datos de los reportes enviados por partes de los tecnicos. 
+                        herramientas utilizadas fueron: JavaGUI y MongoDB </p>
+                </div>
+                <div class="apartado">
+                    <h1>CSTI - Lider de laboratorio</h1>
+                    <h2>Agosto 2022 - Actualmente</h2>
+                    <p>Aqui es un lugar donde brindamos servicios a los maestros y alumnos de la Unison u otros sectores estudiantiles liderado por el maestro Ivan Chavez.
+                        Unas de las cosas que debemos de hacer fueron: Mantenimiento a computadores, Mantenimineto de laboratorios, control de un equipo, instalaciones de programas.
+                    </p>
                 </div>
             </div>
         </section>
 
-        <section>
-            <h2>Experiencia Laboral</h2>
-            <p><strong>Nombre de la Empresa</strong> - Cargo</p>
-            <p>Fecha de inicio - Fecha de finalización</p>
-            <p>Descripción de las responsabilidades y logros en el trabajo.</p>
+        <section id="Cursos">
+            <h1 class="titulo">Cursos / Extracurricular</h1>
+            <div class="curso-container">
+                <div class="curso">
+                    <img src="./img/security-student-icon-1.png" alt="Curso-1">
+                    <h3>Curso de Ciberseguridad</h3>
+                    <p>Un curso donde se vio lo basico de la Ciberseguridad y en que ambiente se maneja.</p>
+                    <a class="button-link" href="https://www.industrial.uson.mx/cursos/2022/curso_cs2022_darm.pdf" target="_blank" id="btn-curso-1">
+                        Certificado
+                    </a>
+                </div>
+                <div class="curso">
+                    <img src="./img/Win-server.png" alt="Curso-2">
+                    <h3>Curso de Windows Server</h3>
+                    <p>En este curso se pudo observar la configuracion y la administracion de los servidores con windows</p>
+                    <a class="button-link" href="https://www.industrial.uson.mx/cursos/2023/curso_cyads2023_darm.pdf" target="_blank" id="btn-curso-1">
+                        Certificado
+                    </a>
+                </div>
+                <div class="curso">
+                    <img src="./img/1200px-Node.js_logo.svg.png" alt="Curso-3">
+                    <h3>Curso de NodeJS con JavaScript</h3>
+                    <p>En este curso se veo el entorno de JavaScript y como utilizar la herramienta de NodeJS adecuadamente</p>
+                    <a class="button-link" href="https://www.udemy.com/course/javascript-desde-cero-con-nodejs/learn/lecture/28930270?start=960#overview" target="_blank" id="btn-curso-1">
+                        Prueba
+                    </a>
+                </div>
+            </div>
         </section>
     
-       
-    
-      
     </main>
+    
+    <footer id="footer">
+
+        <div class="contacto-container">
+    
+            <h2>Contactame</h2>
+    
+            <form id="contacto-form">
+    
+                <input type="text" id="nombre" placeholder="Nombre" required>
+    
+                <input type="email" id="email" placeholder="Email" required>
+    
+                <textarea id="mensaje" placeholder="Mensaje" required></textarea>
+    
+                <button type="submit" class="btn">Enviar</button>
+    
+            </form>
+    
+        </div>
+    
+        <p>Curruculum Vitae - Rios Montoya Daniel Antonio &copy; 2023</p>
+    
+    </footer>
+    
+    <button id="btn-ir-arriba" >
+        <svg viewBox="0 0 24 24">
+        <path d="m4 16 8-8 8 8"></path>
+        </svg>
+    </button>
+
 </body>
 </html>
